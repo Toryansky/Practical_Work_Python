@@ -19,11 +19,11 @@ if parameter_y < 0:
 
 if parameter_y == 0:
     if parameter_x != 0:
-        print("Точка находится на оси OX")
+        print("Точка находится на оси 0X")
 
 if parameter_x == 0:
     if parameter_y != 0:
-        print("Точка находится на оси OY")
+        print("Точка находится на оси 0Y")
 
 if parameter_x == 0:
     if parameter_y == 0:
