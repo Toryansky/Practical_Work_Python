@@ -12,4 +12,4 @@ elif coordinate_quarter == 3:
 elif coordinate_quarter == 4:
     print("В этой четверти x > 0 и y < 0")
 else:
-    print("Некорректно введён номер")
+    print("Координатной четверти с таким номером не существует")
