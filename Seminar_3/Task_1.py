@@ -5,16 +5,14 @@ from random import randint
 
 n = int(input("Введите количество элементов списка N: "))
 
-print("Ваш список: ", end="")
 sp = []
 for i in range(n):
     element = (randint(-10, 10))
     sp.append(element)
-print(sp)
+print(f"Ваш список: {sp}")
 
 summa = 0
-
 for j in range(1, n, 2):
     summa = summa + sp[j]
 
-print(summa)
+print(f"Сумма элементов, стоящих на нечётной позиции: {summa}")
