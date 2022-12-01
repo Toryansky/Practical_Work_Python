@@ -9,5 +9,5 @@ if number > 0:
         sp.append(str(binary_digit_value))
         number = number // 2
     print(f"Двоичная форма: " + "".join(sp[::-1]))
-else:
+elif number == 0:
     print(f"Двоичная форма: 0")
