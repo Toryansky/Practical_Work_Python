@@ -2,5 +2,6 @@
 
 from math import pi
 
-accuracy = int(input("Введите желаемую точность числа Пи: "))
+d = input("Введите желаемую точность числа Пи: ")
+accuracy = d[::-1].find('.')
 print(f"Число Пи с заданной точностью равно: {round(pi, accuracy)}")
