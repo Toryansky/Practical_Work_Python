@@ -35,7 +35,7 @@ for i in summary_dict.items():
     else:
         polynomial_result += " + " + str(abs(i[1])) + "x^" + str(abs(i[0]))
 
-print(polynomial_result)
+print(f"Сумма многочленов: {polynomial_result}")
 
 with open("polynomial_result.txt", "w") as data:
     data.write(polynomial_result)
